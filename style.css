@@ -1,0 +1,80 @@
+/* Styling untuk background halaman */
+.bacgroud {
+    background-color: #E6E6FA;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling untuk container kalkulator */
+  .main {
+    background: linear-gradient(to bottom right, #00c9ff, #92fe9d);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+  
+  /* Styling untuk header */
+  h2 {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #E0FFFF
+  }
+  
+  /* Styling untuk input angka kalkulator */
+  .textarea {
+    width: 100%;
+    height: 60px;
+    font-size: 28px;
+    padding-right: 2px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius : 10px;
+  }
+  
+  /* Styling untuk tombol kalkulator */
+  .button {
+    background-color: #fff;
+    border: none;
+    color: #222;
+    font-size: 24px;
+    padding: 23px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling untuk tombol operator kalkulator */
+  .btn-green {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  /* Styling untuk tombol C dan < pada kalkulator */
+  .button:first-child,
+  .button:nth-child(2) {
+    background-color: #f2f2f2;
+    color: #222;
+  }
+  
+  /* Hover effect pada tombol kalkulator */
+  .button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Hover effect pada tombol operator kalkulator */
+  .btn-green:hover {
+    background-color: #7DFDFE
+  }
+  
